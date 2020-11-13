@@ -1,0 +1,241 @@
+/** {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        outline: 0;
+        font-size: 100%;
+        vertical-align: baseline;
+        background: transparent;
+    }
+*/
+body{
+	margin: 0px 0px 0px 0px;
+}
+
+/*body header*/
+
+#body-header{
+	height: 65vh;
+	opacity: 1;
+	background-image:  url(image/test1.jpg);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	}
+
+/*horizonal list*/
+
+.horizontal-list{
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+
+}
+
+.horizontal-list li{
+	display: inline-block;
+	margin: 0px 8px 8px 0px;
+
+}	
+
+.horizontal-list li a{
+	color: white;
+	text-decoration: none;
+}
+
+
+/*Navigation Menu*/
+.nav-menu{
+	padding: 25px;
+	word-spacing: 5px;
+	font-size: large;
+	/*font-family: cursive;*/
+}
+
+.nav-menu li a{
+	transition: color 0.5s, border-bottom 4s;
+}
+
+.nav-menu li a:hover{
+	color: grey;
+	border-bottom: 1px solid grey;
+}
+
+/*To center the text*/
+.text-center{
+	text-align: center;
+}
+
+/*Name and Social Container*/
+#name-social-container{
+	margin-top: 10vh;
+}
+/*My name*/
+#my-name{
+	font-size: 3rem;
+	letter-spacing: 0.1rem;
+	color: white;
+	font-weight: 700;
+	margin-bottom: 0.5rem;
+	/*font-family: cursive;*/
+}
+
+/*social icons*/
+.social-icons li a i{
+
+	padding: 10px;
+	font-size: 2rem;
+	border-radius: 50%;
+
+}
+
+.social-icons li a i:hover{
+	box-shadow: 0px 0px 6px 4px rgba(230,196,196,0.6);
+}
+
+/*about section*/
+#about{
+	height: auto;
+	width: 100%;
+	position: relative;
+}
+
+#my-image{
+	height: 12rem;
+	width: 12rem;
+	margin: auto;
+	margin-top: -12vh;
+}
+#my-image img{
+	height: 110%;
+	width: 110%;
+	border-radius: 50%;
+	box-shadow: 0px 0px 10px 5px #d5ae89;
+	transition: transform 2.3s cubic-bezier(0.53,-0.36, 0.49, 1.31);
+}
+
+#my-image img:hover{
+
+    box-shadow: 0px 0px 10px 5px #b3c6d8;
+    transform: scale(1.3) rotate3d(1, 1, 1, 360deg);
+	
+}
+
+#about-para{
+	padding: 10px;
+	height: 100%;
+	width: 70%;
+    margin: auto;
+    margin-top: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    font-weight: 100;
+    line-height: 1.5rem;
+    color: #445167;
+    font-size: 1.1rem;
+}
+
+/*common margin class*/
+.mb-75px{
+	margin-bottom: 75px;
+}
+
+.mb-brown{
+	background-color: #714a35;
+}
+
+
+/*Section Properties*/
+section{
+	width: 100%;
+	/*height: 75vh;*/ 
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+/*even no. section*/
+section:nth-child(2n){
+	background-color: #f7e2cf;
+}
+
+/*odd no. section*/
+section:nth-child(2n + 1){
+	background-color: #ffffff;
+}
+
+.section-heading{
+	width: auto;
+	padding: 20px 10px 10px;
+	/*margin: 10px auto;*/
+	font-weight: 400px;
+}
+
+.section-heading span{
+	color: #714a35;
+	font-size: 40px;
+	display: inline-block;
+	padding-top: 10px;
+	margin-right: 0.5rem;
+}
+
+/*Skills Display*/
+.skills-display{
+	width: 70%;
+	height: auto;
+	margin: auto;
+	/*border: 2px solid black;*/
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+
+.skill-progress{
+	width: 9rem;
+	height: 2rem;
+	margin: 20px;
+	background-color: grey;
+	border-radius: 0.8rem;
+	/*border: 2px solid black;*/
+	box-shadow: 1px 1px 2px 1px #b9b9b9;
+}
+
+/*only to the direct child of skill-progress*/
+.skill-progress>div{
+	border-radius: 20px 0px 0px 20px;
+}
+
+.skill-name{
+	padding: 0.4rem;
+}
+
+.skill-name span{
+	color: #ffffff;
+	font-size: 1.2rem;	
+	margin-left: 12px;
+	
+}
+
+/*Percentage Classes*/
+.eighty-five-percent{
+	width: 85%;
+	height: inherit;
+}
+
+.fifty-percent{
+	width: 50%;
+	height: inherit;
+}
+
+.seventy-percent{
+	width: 70%;
+	height: inherit;
+}
+
+.fourty-percent{
+	width: 40%;
+	height: inherit;
+}
+
+

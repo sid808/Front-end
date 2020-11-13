@@ -1,0 +1,80 @@
+
+/*main header*/
+
+main{
+	width: 73%;
+	display: inline-block;
+}
+
+img{
+	width: 100%;
+}
+
+#logo{ 
+	width: 210px;
+}
+
+#blog-heading{
+	font-size: 3.2rem;
+}
+
+#blog-content{
+	width: 80%;
+	font-size: 1.1rem;
+	word-spacing: 1px;
+	line-height: 1.4;
+	display: inline-block;
+
+}
+
+.sources li{
+	color: green;
+}
+
+/*Author-info*/
+
+#left-side{
+	background-color: blue;
+	display: inline-block;
+	width: 15%;
+	vertical-align: top;
+	
+}
+
+/* Aside */
+#right-side{
+	background-color: green;
+	display: inline-block;
+	width: 21%;
+	vertical-align: top;
+	margin-left: 2%;
+	
+}
+
+.widget{
+	border-top: 4px solid black;		
+}
+
+.widget input{
+	display: block;
+	background-color: #F7F7F7;
+	margin-bottom: 15px;
+	padding: 4px;
+	color: black;
+	font-size: 1.2rem;
+	max-width: 90%;
+}
+
+button[type="submit"]{
+
+	font-size: 1.2rem;
+	background-color: black;
+	color: white;
+	padding: 10px;
+
+}
+
+.widget-title{
+	font-size: 1.5rem;
+
+}
